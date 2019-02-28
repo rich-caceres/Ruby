@@ -1,15 +1,7 @@
 puts "give me a number"
 
-first_number= gets.to_i
+first_number= gets.to_i 
 
-second_number= first_number + 5
+first_number= (((((first_number + 5)*2)-4)/2)- first_number) 
 
-third_number= second_number * 2
-
-fourth_number= third_number - 4
-
-fifth_number= fourth_number / 2
-
-final_number= fifth_number - first_number
-
-puts "The number is always = #{final_number}"
+puts "The number is always = #{first_number}"
